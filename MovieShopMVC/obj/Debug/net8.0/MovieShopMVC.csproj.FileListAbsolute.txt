@@ -37,3 +37,4 @@ C:\Users\cheng\Documents\RothurTech\Projects\Project3\MovieShop\MovieShopMVC\obj
 C:\Users\cheng\Documents\RothurTech\Projects\Project3\MovieShop\MovieShopMVC\obj\Debug\net8.0\MovieShopMVC.pdb
 C:\Users\cheng\Documents\RothurTech\Projects\Project3\MovieShop\MovieShopMVC\obj\Debug\net8.0\MovieShopMVC.genruntimeconfig.cache
 C:\Users\cheng\Documents\RothurTech\Projects\Project3\MovieShop\MovieShopMVC\obj\Debug\net8.0\ref\MovieShopMVC.dll
+C:\Users\cheng\Documents\RothurTech\Projects\Project3\MovieShop\MovieShopMVC\obj\Debug\net8.0\MovieShopMVC.sourcelink.json

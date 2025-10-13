@@ -7,6 +7,22 @@
       "RelativeMoniker": "D:0:0:{BE606127-E848-4BE5-A216-8CBE93DD835D}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{21393E00-3971-4F18-8AB7-192F0791475D}|Infrastructure\\Infrastructure.csproj|c:\\users\\cheng\\documents\\rothurtech\\projects\\project3\\movieshop\\infrastructure\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21393E00-3971-4F18-8AB7-192F0791475D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE606127-E848-4BE5-A216-8CBE93DD835D}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\cheng\\documents\\rothurtech\\projects\\project3\\movieshop\\movieshopmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE606127-E848-4BE5-A216-8CBE93DD835D}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F53B6E5-EFE8-426E-9DE2-90AE2DB2FCB7}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\cheng\\documents\\rothurtech\\projects\\project3\\movieshop\\applicationcore\\contracts\\services\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F53B6E5-EFE8-426E-9DE2-90AE2DB2FCB7}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\contracts\\services\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F53B6E5-EFE8-426E-9DE2-90AE2DB2FCB7}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\cheng\\documents\\rothurtech\\projects\\project3\\movieshop\\applicationcore\\models\\moviecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F53B6E5-EFE8-426E-9DE2-90AE2DB2FCB7}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\models\\moviecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BE606127-E848-4BE5-A216-8CBE93DD835D}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\cheng\\documents\\rothurtech\\projects\\project3\\movieshop\\movieshopmvc\\movieshopmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{BE606127-E848-4BE5-A216-8CBE93DD835D}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\movieshopmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -26,19 +42,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 300,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\MovieShopMVC\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "MovieShopMVC\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\MovieShopMVC\\Controllers\\HomeController.cs*",
-              "RelativeToolTip": "MovieShopMVC\\Controllers\\HomeController.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\MovieShopMVC\\Program.cs",
+              "RelativeDocumentMoniker": "MovieShopMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\MovieShopMVC\\Program.cs*",
+              "RelativeToolTip": "MovieShopMVC\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T04:30:06.765Z",
+              "WhenOpened": "2025-10-13T05:43:43.989Z",
               "EditorCaption": ""
             },
             {
@@ -52,41 +68,90 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MovieShopMVC",
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\Infrastructure\\Services\\MovieService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\MovieService.cs",
+              "ToolTip": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\Infrastructure\\Services\\MovieService.cs*",
+              "RelativeToolTip": "Infrastructure\\Services\\MovieService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T05:16:35.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\MovieShopMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MovieShopMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\MovieShopMVC\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "MovieShopMVC\\Controllers\\HomeController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T04:30:06.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMovieService.cs",
+              "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\Contracts\\Services\\IMovieService.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Contracts\\Services\\IMovieService.cs",
+              "ToolTip": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\Contracts\\Services\\IMovieService.cs*",
+              "RelativeToolTip": "ApplicationCore\\Contracts\\Services\\IMovieService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T05:13:50.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovieCard.cs",
+              "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\Models\\MovieCard.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Models\\MovieCard.cs",
+              "ToolTip": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\Models\\MovieCard.cs*",
+              "RelativeToolTip": "ApplicationCore\\Models\\MovieCard.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T04:47:34.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MovieShopMVC.csproj",
               "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\MovieShopMVC\\MovieShopMVC.csproj",
               "RelativeDocumentMoniker": "MovieShopMVC\\MovieShopMVC.csproj",
               "ToolTip": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\MovieShopMVC\\MovieShopMVC.csproj",
               "RelativeToolTip": "MovieShopMVC\\MovieShopMVC.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-13T03:12:21.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T03:12:21.108Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Infrastructure",
+              "DocumentIndex": 6,
+              "Title": "Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
               "ToolTip": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\Infrastructure\\Infrastructure.csproj",
               "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-13T03:11:37.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T03:11:37.17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationCore",
+              "DocumentIndex": 7,
+              "Title": "ApplicationCore.csproj",
               "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\ApplicationCore.csproj",
               "RelativeDocumentMoniker": "ApplicationCore\\ApplicationCore.csproj",
               "ToolTip": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\ApplicationCore.csproj",
               "RelativeToolTip": "ApplicationCore\\ApplicationCore.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-13T03:01:38.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T03:01:38.195Z"
             }
           ]
         }
