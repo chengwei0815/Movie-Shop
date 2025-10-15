@@ -11,11 +11,7 @@
                 @foreach (var movie in Model)
                 {
                     <div class="col-6 col-sm-4 col-md-3 col-xl-2">
-                        <div class="card mb-4">
-                            <a>
-                            <img src="@movie.PosterUrl" alt="@movie.Title" class="img-fluid" />
-                            </a>
-                        </div>
+                    <partial name="_MovieCard" model="movie" />
                     </div>
                 }
             
