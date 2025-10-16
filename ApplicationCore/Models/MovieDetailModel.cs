@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ApplicationCore.Entities
+namespace ApplicationCore.Models
 {
-    public class Movie
+    public class MovieDetailModel
     {
         public int Id { get; set; }
         public string? Title { get; set; }
@@ -23,17 +22,10 @@ namespace ApplicationCore.Entities
         public DateTime? ReleaseDate { get; set; }
         public int? RunTime { get; set; }
         public decimal? Price { get; set; }
-        public DateTime? CreatedDate { get; set; }
-        public DateTime? UpdatedDate { get; set; }
-        public string? UpdatedBy { get; set; }
-        public string? CreatedBy { get; set; }
         public decimal? Rating { get; set; }
-        public ICollection<Trailer> Trailers { get; set; }
-        public ICollection<MovieGenre> GenresOfMovie { get; set; }
-        public ICollection<MovieCast> CastsOfMovie { get; set; }
-        public ICollection<MovieCrew> CrewsOfMovie { get; set; }
-        public ICollection<Favorites> UsersOfFavorite { get; set; }
-        public ICollection<Review> UsersOfReview { get; set; }
-        public ICollection<Purchase> UsersOfPurchase { get; set; }
+
+        public List<CastModel> Casts { get; set; }
+        public List<TrailerModel> Trailers { get; set; }
+        public List<GenreModel> Genres { get; set; }
     }
 }

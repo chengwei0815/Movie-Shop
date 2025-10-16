@@ -27,5 +27,42 @@ namespace Infrastructure.Services
             return movieCards;
 
         }
+
+        public MovieDetailModel GetMovieDetails(int id)
+        {
+            var movie = _movieRepository.GetById(id);
+            var movieDetails = new MovieDetailModel
+            {
+                Id = movie.Id,
+                Title = movie.Title,
+                Overview = movie.Overview,
+                Tagline = movie.Tagline,
+                Budget = movie.Budget,
+                Revenue = movie.Revenue,
+                ImdbUrl = movie.ImdbUrl,
+                TmdbUrl = movie.TmdbUrl,
+                PosterUrl = movie.PosterUrl,
+                BackdropUrl = movie.BackdropUrl,
+                OriginalLanguage = movie.OriginalLanguage,
+                ReleaseDate = movie.ReleaseDate,
+                RunTime = movie.RunTime,
+                Price = movie.Price,
+                Rating = movie.Rating,
+            };
+
+            movieDetails.Trailers = new List<TrailerModel>();
+            foreach (var trailer in movie.Trailers)
+            {
+                movieDetails.Trailers.Add(new TrailerModel { Id = trailer.Id, Name = trailer.Name, TrailerUrl = trailer.TrailerUrl });
+            }
+
+            movieDetails.Genres = new List<GenreModel>();
+            foreach (var genre in movie.GenresOfMovie)
+            {
+                movieDetails.Genres.Add(new GenreModel { Id = genre.Genre.Id, Name = genre.Genre.Name });
+            }
+
+            return movieDetails;
+        }
     }
 }
