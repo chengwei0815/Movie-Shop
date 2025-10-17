@@ -1,5 +1,6 @@
 ﻿using ApplicationCore.Contracts.Repositories;
 using ApplicationCore.Contracts.Services;
+using ApplicationCore.Entities;
 using ApplicationCore.Models;
 using System;
 using System.Collections.Generic;
@@ -62,6 +63,12 @@ namespace Infrastructure.Services
                 movieDetails.Genres.Add(new GenreModel { Id = genre.Genre.Id, Name = genre.Genre.Name });
             }
 
+            movieDetails.Casts = new List<CastModel>();
+            foreach (var cast in movie.CastsOfMovie)
+            {
+                movieDetails.Casts.Add(new CastModel
+                { Id = cast.Cast.Id, Name = cast.Cast.Name, ProfilePath = cast.Cast.ProfilePath, Character = cast.Character });
+            }
             return movieDetails;
         }
     }
