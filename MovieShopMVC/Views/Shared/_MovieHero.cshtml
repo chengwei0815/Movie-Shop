@@ -1,0 +1,35 @@
+﻿@model ApplicationCore.Models.MovieDetailModel
+
+<div class="movie-hero mb-5">
+    <div class="movie-hero-content">
+        <h1 class="fw-bold">@Model.Title</h1>
+
+        @if (!string.IsNullOrEmpty(Model.Tagline))
+        {
+            <h5 class="fst-italic text-light">@Model.Tagline</h5>
+        }
+
+        <div class="mt-3">
+            <span class="badge bg-success fs-5">@Model.Rating?.ToString("0.0")</span>
+            @foreach (var genre in Model.Genres)
+            {
+                <span class="badge bg-secondary ms-1">@genre.Name</span>
+            }
+        </div>
+
+        <p class="lead mt-3">@Model.Overview</p>
+
+        <div class="d-flex gap-3 mt-4">
+            <a href="#" class="btn btn-outline-light">
+                <i class="bi bi-pencil-square"></i> Review
+            </a>
+            <button class="btn btn-light text-dark fw-bold">
+                Buy $@Model.Price
+            </button>
+        </div>
+    </div>
+
+    <img src="@Model.PosterUrl" alt="@Model.Title Poster"
+         class="position-absolute top-50 end-0 translate-middle-y me-5"
+         style="width: 250px; border-radius: 15px;" />
+</div>

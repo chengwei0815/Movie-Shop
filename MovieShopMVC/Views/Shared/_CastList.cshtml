@@ -1,0 +1,20 @@
+﻿@model IEnumerable<ApplicationCore.Models.CastModel>
+
+<h4 class="fw-bold mb-3">Cast</h4>
+@if (Model != null && Model.Any())
+{
+    <div class="row">
+        @foreach (var cast in Model)
+        {
+            <div class="col-md-3 mb-4 text-center">
+                <img src="@cast.ProfilePath" alt="@cast.Name" class="img-fluid rounded-circle mb-2" />
+                <p class="fw-semibold">@cast.Name</p>
+                <p class="text-muted">@cast.Character</p>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No cast members available.</p>
+}

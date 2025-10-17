@@ -1,0 +1,11 @@
+﻿@model ApplicationCore.Models.MovieDetailModel
+
+<div class="col-md-4">
+    <h4 class="fw-bold mb-3">Movie Facts</h4>
+    <ul class="list-unstyled movie-facts">
+        <li><i class="bi bi-calendar-event"></i> <strong>Release Date:</strong> @Model.ReleaseDate?.ToString("yyyy-MM-dd")</li>
+        <li><i class="bi bi-clock"></i> <strong>Run Time:</strong> @Model.RunTime mins</li>
+        <li><i class="bi bi-cash-stack"></i> <strong>Box Office:</strong> @Model.Revenue?.ToString("C")</li>
+        <li><i class="bi bi-currency-dollar"></i> <strong>Budget:</strong> @Model.Budget?.ToString("C")</li>
+    </ul>
+</div>
