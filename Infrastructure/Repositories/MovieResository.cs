@@ -16,10 +16,10 @@ namespace Infrastructure.Repositories
         {
         }
 
-        public IEnumerable<Movie> Get30HighestGrossingMovies()
+        public async Task<IEnumerable<Movie>> Get30HighestGrossingMovies()
         {
             //select top 30 * from movies order by revenue desc
-            var movies = _dbContext.Movies.OrderByDescending(m => m.Revenue).Take(30).ToList();
+            var movies = await _dbContext.Movies.OrderByDescending(m => m.Revenue).Take(30).ToListAsync();
             return movies;
         }
 
@@ -28,15 +28,18 @@ namespace Infrastructure.Repositories
             throw new NotImplementedException();
         }
 
-        public override Movie GetById(int id)
+        public async override Task<Movie> GetById(int id)
         {
             //var movie = _dbContext.Movies.FirstOrDefault(m => m.Id == id);
-            var movie = _dbContext.Movies.Include(m => m.GenresOfMovie).ThenInclude(mg => mg.Genre).Include(m => m.Trailers).Include(m => m.CastsOfMovie).ThenInclude(mc => mc.Cast).Include(m => m.UsersOfReview).FirstOrDefault(m => m.Id == id);
-            if (movie != null && movie.UsersOfReview != null && movie.UsersOfReview.Any())
-            {
-                movie.Rating = movie.UsersOfReview.Average(r => r.Rating);
-            }
+            //var movie = await _dbContext.Movies.Include(m => m.GenresOfMovie).ThenInclude(mg => mg.Genre).Include(m => m.Trailers).Include(m => m.CastsOfMovie).ThenInclude(mc => mc.Cast).Include(m => m.UsersOfReview).FirstOrDefaultAsync(m => m.Id == id);
+            //if (movie != null && movie.UsersOfReview != null && movie.UsersOfReview.Any())
+            //{
+            //    movie.Rating = movie.UsersOfReview.Average(r => r.Rating);
+            //}
 
+            var movie = await _dbContext.Movies.Include(m => m.GenresOfMovie).ThenInclude(m => m.Genre).Include(m => m.CastsOfMovie).ThenInclude(m => m.Cast).Include(m => m.Trailers).FirstOrDefaultAsync(m => m.Id == id);
+            movie.Rating = await _dbContext.Reviews.Where(m => m.MovieId == id).AverageAsync(m => m.Rating);
+           
             return movie;
         }
     }
