@@ -25,8 +25,43 @@ namespace Infrastructure.Repositories
 
         public IEnumerable<Movie> Get30HighestRatedMovies()
         {
-            throw new NotImplementedException();
+            var movies = _dbContext.Reviews
+                .GroupBy(r => r.MovieId)
+                .Select(g => new
+                {
+                    MovieId = g.Key,
+                    AverageRating = g.Average(r => r.Rating)
+                })
+                .OrderByDescending(g => g.AverageRating)
+                .Take(30)
+                .Join(
+                    _dbContext.Movies,
+                    g => g.MovieId,
+                    m => m.Id,
+                    (g, m) => new Movie
+                    {
+                        Id = m.Id,
+                        Title = m.Title,
+                        PosterUrl = m.PosterUrl,
+                        Rating = g.AverageRating
+                    }
+                )
+                .ToList();
+
+            return movies;
         }
+
+
+        //public async Task<IEnumerable<Movie>> Get30HighestRatedMovies()
+        //{
+        //    var movies = await _dbContext.Movies
+        //        .OrderByDescending(m => m.Rating)
+        //        .Take(30)
+        //        .ToListAsync();
+
+        //    return movies;
+        //}
+
 
         public async override Task<Movie> GetById(int id)
         {

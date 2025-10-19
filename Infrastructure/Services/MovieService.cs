@@ -29,6 +29,18 @@ namespace Infrastructure.Services
 
         }
 
+        public List<MovieCard> Get30HighestRatedMovies()
+        {
+            var movies = _movieRepository.Get30HighestRatedMovies();
+            var movieCards = new List<MovieCard>();
+            foreach (var movie in movies)
+            {
+                movieCards.Add(new MovieCard { Id = movie.Id, Title = movie.Title, PosterUrl = movie.PosterUrl });
+            };
+
+            return movieCards;
+        }
+
         public async Task<MovieDetailModel> GetMovieDetails(int id)
         {
             var movie = await _movieRepository.GetById(id);

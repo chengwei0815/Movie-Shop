@@ -24,6 +24,7 @@ namespace MovieShopMVC.Controllers
            // var movieService = new MovieService();
            //var movies = movieService.Get30HighestGrossingMovies();
             var movies = await _movieService.Get30HighestGrossingMovies();
+            //var movies = _movieService.Get30HighestRatedMovies();
             return View(movies);
         }
 
