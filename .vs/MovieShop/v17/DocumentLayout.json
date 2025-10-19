@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE606127-E848-4BE5-A216-8CBE93DD835D}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\cheng\\documents\\rothurtech\\projects\\project3\\movieshop\\movieshopmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE606127-E848-4BE5-A216-8CBE93DD835D}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE606127-E848-4BE5-A216-8CBE93DD835D}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\cheng\\documents\\rothurtech\\projects\\project3\\movieshop\\movieshopmvc\\views\\movies\\genres.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE606127-E848-4BE5-A216-8CBE93DD835D}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\views\\movies\\genres.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE606127-E848-4BE5-A216-8CBE93DD835D}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\cheng\\documents\\rothurtech\\projects\\project3\\movieshop\\movieshopmvc\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE606127-E848-4BE5-A216-8CBE93DD835D}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21393E00-3971-4F18-8AB7-192F0791475D}|Infrastructure\\Infrastructure.csproj|c:\\users\\cheng\\documents\\rothurtech\\projects\\project3\\movieshop\\infrastructure\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21393E00-3971-4F18-8AB7-192F0791475D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F53B6E5-EFE8-426E-9DE2-90AE2DB2FCB7}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\cheng\\documents\\rothurtech\\projects\\project3\\movieshop\\applicationcore\\contracts\\services\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F53B6E5-EFE8-426E-9DE2-90AE2DB2FCB7}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\contracts\\services\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21393E00-3971-4F18-8AB7-192F0791475D}|Infrastructure\\Infrastructure.csproj|c:\\users\\cheng\\documents\\rothurtech\\projects\\project3\\movieshop\\infrastructure\\repositories\\movieresository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +27,12 @@
       "RelativeMoniker": "D:0:0:{5F53B6E5-EFE8-426E-9DE2-90AE2DB2FCB7}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\contracts\\repositories\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21393E00-3971-4F18-8AB7-192F0791475D}|Infrastructure\\Infrastructure.csproj|c:\\users\\cheng\\documents\\rothurtech\\projects\\project3\\movieshop\\infrastructure\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21393E00-3971-4F18-8AB7-192F0791475D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F53B6E5-EFE8-426E-9DE2-90AE2DB2FCB7}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\cheng\\documents\\rothurtech\\projects\\project3\\movieshop\\applicationcore\\models\\pagedresultset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F53B6E5-EFE8-426E-9DE2-90AE2DB2FCB7}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\models\\pagedresultset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F53B6E5-EFE8-426E-9DE2-90AE2DB2FCB7}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\cheng\\documents\\rothurtech\\projects\\project3\\movieshop\\applicationcore\\contracts\\services\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F53B6E5-EFE8-426E-9DE2-90AE2DB2FCB7}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\contracts\\services\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE606127-E848-4BE5-A216-8CBE93DD835D}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\cheng\\documents\\rothurtech\\projects\\project3\\movieshop\\movieshopmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE606127-E848-4BE5-A216-8CBE93DD835D}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F53B6E5-EFE8-426E-9DE2-90AE2DB2FCB7}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\cheng\\documents\\rothurtech\\projects\\project3\\movieshop\\applicationcore\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 316,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,16 +118,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Genres.cshtml",
+              "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\MovieShopMVC\\Views\\Movies\\Genres.cshtml",
+              "RelativeDocumentMoniker": "MovieShopMVC\\Views\\Movies\\Genres.cshtml",
+              "ToolTip": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\MovieShopMVC\\Views\\Movies\\Genres.cshtml",
+              "RelativeToolTip": "MovieShopMVC\\Views\\Movies\\Genres.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAkwC0AAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T20:10:05.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MovieResository.cs",
               "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\Infrastructure\\Repositories\\MovieResository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\MovieResository.cs",
               "ToolTip": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\Infrastructure\\Repositories\\MovieResository.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\MovieResository.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAYwBwAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAswGQAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T12:26:52.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T12:26:52.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMovieService.cs",
+              "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\Contracts\\Services\\IMovieService.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Contracts\\Services\\IMovieService.cs",
+              "ToolTip": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\Contracts\\Services\\IMovieService.cs",
+              "RelativeToolTip": "ApplicationCore\\Contracts\\Services\\IMovieService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:20:24.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\Infrastructure\\Services\\MovieService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\MovieService.cs",
+              "ToolTip": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\Infrastructure\\Services\\MovieService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\MovieService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwFsAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T12:42:59.303Z"
             },
             {
               "$type": "Document",
@@ -129,66 +173,50 @@
               "RelativeDocumentMoniker": "MovieShopMVC\\Controllers\\MoviesController.cs",
               "ToolTip": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\MovieShopMVC\\Controllers\\MoviesController.cs",
               "RelativeToolTip": "MovieShopMVC\\Controllers\\MoviesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA9wBMAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T02:47:29.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\MovieShopMVC\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "MovieShopMVC\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\MovieShopMVC\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "MovieShopMVC\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBoAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T15:34:46.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "IMovieRepository.cs",
               "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\Contracts\\Repositories\\IMovieRepository.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\Contracts\\Repositories\\IMovieRepository.cs",
               "ToolTip": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\Contracts\\Repositories\\IMovieRepository.cs",
               "RelativeToolTip": "ApplicationCore\\Contracts\\Repositories\\IMovieRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T15:44:01.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-18T15:44:01.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MovieService.cs",
-              "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\Infrastructure\\Services\\MovieService.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Services\\MovieService.cs",
-              "ToolTip": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\Infrastructure\\Services\\MovieService.cs",
-              "RelativeToolTip": "Infrastructure\\Services\\MovieService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCEAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "PagedResultSet.cs",
+              "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\Models\\PagedResultSet.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Models\\PagedResultSet.cs",
+              "ToolTip": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\Models\\PagedResultSet.cs",
+              "RelativeToolTip": "ApplicationCore\\Models\\PagedResultSet.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T12:42:59.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IMovieService.cs",
-              "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\Contracts\\Services\\IMovieService.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Contracts\\Services\\IMovieService.cs",
-              "ToolTip": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\Contracts\\Services\\IMovieService.cs",
-              "RelativeToolTip": "ApplicationCore\\Contracts\\Services\\IMovieService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T12:20:24.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-19T16:11:59.062Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\MovieShopMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MovieShopMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\MovieShopMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MovieShopMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T15:34:46.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\MovieShopMVC\\Program.cs",
               "RelativeDocumentMoniker": "MovieShopMVC\\Program.cs",
@@ -200,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Review.cs",
               "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\Entities\\Review.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\Entities\\Review.cs",
@@ -212,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\Infrastructure\\Repositories\\Repository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Repository.cs",
@@ -224,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\Contracts\\Repositories\\IRepository.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\Contracts\\Repositories\\IRepository.cs",
@@ -236,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\MovieShopMVC\\Views\\Movies\\Details.cshtml",
               "RelativeDocumentMoniker": "MovieShopMVC\\Views\\Movies\\Details.cshtml",
@@ -248,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Cast.cs",
               "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\Entities\\Cast.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\Entities\\Cast.cs",
@@ -260,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "MovieCast.cs",
               "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\Entities\\MovieCast.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\Entities\\MovieCast.cs",
@@ -272,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "CastModel.cs",
               "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\Models\\CastModel.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\Models\\CastModel.cs",
@@ -284,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "MovieDetailModel.cs",
               "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\Models\\MovieDetailModel.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\Models\\MovieDetailModel.cs",
@@ -296,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "TrailerModel.cs",
               "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\Models\\TrailerModel.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\Models\\TrailerModel.cs",
@@ -308,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "MovieCard.cs",
               "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\Models\\MovieCard.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\Models\\MovieCard.cs",
@@ -320,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "GenreModel.cs",
               "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\Models\\GenreModel.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\Models\\GenreModel.cs",
@@ -332,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\ApplicationCore\\Entities\\Movie.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\Entities\\Movie.cs",
@@ -344,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "_MovieCard.cshtml",
               "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\MovieShopMVC\\Views\\Shared\\_MovieCard.cshtml",
               "RelativeDocumentMoniker": "MovieShopMVC\\Views\\Shared\\_MovieCard.cshtml",
@@ -356,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\MovieShopMVC\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "MovieShopMVC\\Views\\Home\\Index.cshtml",
@@ -368,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\cheng\\Documents\\RothurTech\\Projects\\Project3\\MovieShop\\MovieShopMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MovieShopMVC\\Views\\Shared\\_Layout.cshtml",

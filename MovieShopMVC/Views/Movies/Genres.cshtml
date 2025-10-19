@@ -1,0 +1,53 @@
+﻿@model ApplicationCore.Models.PagedResultSet<ApplicationCore.Models.MovieCard>
+
+@{
+    int totalPage = Model.TotalPages;
+    int curIndex = Model.PageIndex;
+    bool hasPrev = Model.HasPreviousPage;
+    bool hasNext = Model.HasNextPage;
+}
+
+<div class="rounded">
+    <div class="container-fluid">
+        <div class="row">
+            @foreach (var movie in Model.Data)
+            {
+                <div class="col-6 col-sm-4 col-md-3 col-xl-2">
+                    <partial name="_MovieCard" model="movie" />
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        @if (hasPrev)
+        {
+            <li class="page-item"><a class="page-link" asp-route-pageNumber="@(Math.Max(1, curIndex - 1))">Previous</a></li>    
+        }
+        else
+        {
+            <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>    
+        }
+
+        @for (int i = Math.Max(1, curIndex - 1); i <= Math.Min(curIndex + 1, totalPage); i++)
+        {
+            <li class="page-item">
+                <a class="page-link" asp-route-pageNumber="@i">@i</a>
+            </li>    
+        }
+
+
+
+        @if (hasNext)
+        {
+            <li class="page-item"><a class="page-link" asp-route-pageNumber="@(Math.Min(curIndex + 1, totalPage))">Next</a></li>    
+        }
+        else
+        {
+            <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>    
+        }
+    </ul>
+</nav>
