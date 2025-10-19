@@ -29,9 +29,9 @@ namespace Infrastructure.Services
 
         }
 
-        public List<MovieCard> Get30HighestRatedMovies()
+        public async Task<List<MovieCard>> Get30HighestRatedMovies()
         {
-            var movies = _movieRepository.Get30HighestRatedMovies();
+            var movies = await _movieRepository.Get30HighestRatedMovies();
             var movieCards = new List<MovieCard>();
             foreach (var movie in movies)
             {

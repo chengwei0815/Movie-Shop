@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Infrastructure.Repositories
@@ -23,9 +24,10 @@ namespace Infrastructure.Repositories
             return movies;
         }
 
-        public IEnumerable<Movie> Get30HighestRatedMovies()
+        public async Task<IEnumerable<Movie>> Get30HighestRatedMovies()
         {
-            var movies = _dbContext.Reviews
+            //SELECT TOP 30 * FROM Reviews r INNER JOIN Movies m ON r.MovieId = m.Id ORDER BY AverageRating DESC;
+            var movies = await _dbContext.Reviews
                 .GroupBy(r => r.MovieId)
                 .Select(g => new
                 {
@@ -46,7 +48,7 @@ namespace Infrastructure.Repositories
                         Rating = g.AverageRating
                     }
                 )
-                .ToList();
+                .ToListAsync();
 
             return movies;
         }
